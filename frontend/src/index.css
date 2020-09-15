@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000;
+  background: #daf2ff89;
+}
+
+.App {
+  max-width: 728px;
+  margin: 4rem auto;
+}
+
+.App > h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.Card {
+  display: flex;
+  margin: 0.8rem 0;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0.08rem solid #000000;
+  border-radius: 0.5rem;
+}
+
+.Card--text h1 {
+  color: #006eff;
+}
+
+.Card--button button {
+  background: #f5f6f7;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.Card--button__delete {
+  border: 0.2rem solid #ca0000;
+  color: #ca0000;
+}
+
+.Card--button__done {
+  border: 0.2rem solid #035b39;
+  color: #035b39;
+  margin-right: 1rem;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #0066ff1e;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.Form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form input {
+  background: #f5f6f7;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid #0066ff;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 0.3rem 1rem 0 0;
+  outline: none;
+}
+
+.Form button {
+  background: #0066ff;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #555555 !important;
+}
+
+.hide-button {
+  display: none;
+}
