@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/js" /* Redirect output structure to the directory. */,
+    "rootDir": "src",
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    "esModuleInterop": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
+}
